@@ -1,0 +1,81 @@
+.container {
+    width: 350px;
+    background-color: #15263f;
+    padding: 24px 24px 32px;
+    border-radius: 15px;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.title {
+    height: 28px;
+    margin: 24px 0 16px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text {
+    height: 52px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #8bacd9;
+}
+  
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    border-bottom: 1px solid #2e405a;
+    padding-bottom: 24px;
+}
+  
+  .info-container div {
+    display: flex;
+    align-items: center;
+    gap: 6.5px;
+}
+  
+  .info-container div span {
+    font-size: 16px;
+    line-height: 20.16px; 
+}
+
+.eth span {
+    font-weight: 600;
+    color: #00fff8;
+}
+
+.clock span {
+    color: #8bacd9;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.avatar img {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar p {
+    font-size: 16px;
+    color: #8bacd9;
+}
+
+.avatar span {
+    font-size: 16px;
+    color: #fff;
+}
